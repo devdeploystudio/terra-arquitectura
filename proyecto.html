@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Proyecto - TERRA</title>
+<meta name="description" content="Ficha de proyecto de TERRA: ubicación, categoría, año, superficie y galería de imágenes." />
+<meta name="theme-color" content="#0c0c0b" />
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<div class="page-transition" id="pageTransition" style="transform: scaleY(1)"></div>
+
+<div class="cursor" id="cursor"><span>VER</span></div>
+
+<header class="nav">
+  <button class="nav__menu-btn" id="menuBtn" aria-label="Abrir menú">
+    <span class="nav__menu-icon"></span>
+    MENÚ
+  </button>
+  <a href="index.html#top" class="nav__logo">TERRA</a>
+  <a href="index.html#contacto" class="nav__cta">CONTACTO</a>
+</header>
+
+<nav class="menu-overlay" id="menuOverlay">
+  <ul class="menu-overlay__links">
+    <li><a href="index.html#proyectos" class="menu-link">01. Proyectos</a></li>
+    <li><a href="index.html#estudio" class="menu-link">02. Estudio</a></li>
+    <li><a href="index.html#galeria" class="menu-link">03. Galería</a></li>
+    <li><a href="index.html#contacto" class="menu-link">04. Contacto</a></li>
+  </ul>
+  <div class="menu-overlay__footer">
+    <span>Buenos Aires, Argentina</span>
+    <span>hola@terra-arquitectura.com</span>
+  </div>
+</nav>
+
+<main id="top">
+
+  <section class="project-hero" id="projectHero">
+    <div class="project-hero__bg" id="projectHeroBg"></div>
+    <div class="project-hero__overlay"></div>
+    <a href="index.html#proyectos" class="project-hero__back">← Volver a proyectos</a>
+    <div class="project-hero__text">
+      <span class="eyebrow" id="projectCategory">Categoría</span>
+      <h1 id="projectTitle">Cargando…</h1>
+      <p id="projectLocation">-</p>
+    </div>
+  </section>
+
+  <section class="project-detail">
+    <div class="project-detail__meta" id="projectMeta">
+      <div class="project-detail__meta-item">
+        <span class="project-detail__meta-label">Ubicación</span>
+        <span class="project-detail__meta-value" id="metaLocation">-</span>
+      </div>
+      <div class="project-detail__meta-item">
+        <span class="project-detail__meta-label">Categoría</span>
+        <span class="project-detail__meta-value" id="metaCategory">-</span>
+      </div>
+      <div class="project-detail__meta-item">
+        <span class="project-detail__meta-label">Año</span>
+        <span class="project-detail__meta-value" id="metaYear">-</span>
+      </div>
+      <div class="project-detail__meta-item">
+        <span class="project-detail__meta-label">Superficie</span>
+        <span class="project-detail__meta-value" id="metaArea">-</span>
+      </div>
+    </div>
+    <div class="project-detail__text" id="projectText">
+      <p>Cargando descripción…</p>
+    </div>
+  </section>
+
+  <section class="project-gallery" id="projectGallery"></section>
+
+  <section class="cta" id="contacto">
+    <h2>¿Tenés un terreno<br />y un sueño?</h2>
+    <a href="mailto:hola@terra-arquitectura.com" class="cta__link">Hablemos <span class="cta__arrow">→</span></a>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer__top">
+    <span class="footer__logo">TERRA</span>
+  </div>
+  <div class="footer__bottom">
+    <span>© 2026 TERRA Estudio de Arquitectura</span>
+    <div class="footer__social">
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://www.pinterest.com/" target="_blank" rel="noopener noreferrer">Pinterest</a>
+    </div>
+  </div>
+  <div class="footer__note">
+    <span>© 2026 TERRA. Marca ficticia de demostración.</span>
+    <span class="footer__credit">
+      Sitio de prueba realizado por
+      <a href="https://deploystudio.com.ar/" target="_blank" rel="noopener noreferrer">
+        <img class="footer__deploy-logo" src="assets/img/deploy-logo.png" alt="Deploy" width="900" height="200" loading="lazy" />
+      </a>
+    </span>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
+<script src="assets/js/proyecto.js"></script>
+</body>
+</html>

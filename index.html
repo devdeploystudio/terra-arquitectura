@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>TERRA - Estudio de Arquitectura</title>
+<meta name="description" content="TERRA — Estudio de arquitectura. Diseñamos espacios residenciales y comerciales que perduran en el tiempo, en Buenos Aires y la costa uruguaya." />
+<meta name="theme-color" content="#0c0c0b" />
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+
+<!-- TODO: confirmar/actualizar la URL real al deployar -->
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="TERRA" />
+<meta property="og:locale" content="es_AR" />
+<meta property="og:url" content="https://devdeploystudio.github.io/terra-arquitectura/" />
+<meta property="og:title" content="TERRA · Estudio de Arquitectura" />
+<meta property="og:description" content="Diseñamos espacios residenciales y comerciales que perduran en el tiempo, en Buenos Aires y la costa uruguaya." />
+<meta property="og:image" content="https://devdeploystudio.github.io/terra-arquitectura/assets/img/hero-exterior-atardecer.png" />
+
+<!-- Social cards -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="TERRA · Estudio de Arquitectura" />
+<meta name="twitter:description" content="Diseñamos espacios residenciales y comerciales que perduran en el tiempo, en Buenos Aires y la costa uruguaya." />
+<meta name="twitter:image" content="https://devdeploystudio.github.io/terra-arquitectura/assets/img/hero-exterior-atardecer.png" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<div class="loader" id="loader">
+  <div class="loader__text">TERRA</div>
+</div>
+
+<div class="page-transition" id="pageTransition" style="transform: scaleY(0)"></div>
+
+<div class="cursor" id="cursor"><span>VER</span></div>
+
+<header class="nav">
+  <button class="nav__menu-btn" id="menuBtn" aria-label="Abrir menú">
+    <span class="nav__menu-icon"></span>
+    MENÚ
+  </button>
+  <a href="#top" class="nav__logo">TERRA</a>
+  <a href="#contacto" class="nav__cta">CONTACTO</a>
+</header>
+
+<nav class="menu-overlay" id="menuOverlay">
+  <ul class="menu-overlay__links">
+    <li><a href="#proyectos" class="menu-link">01. Proyectos</a></li>
+    <li><a href="#estudio" class="menu-link">02. Estudio</a></li>
+    <li><a href="#galeria" class="menu-link">03. Galería</a></li>
+    <li><a href="#contacto" class="menu-link">04. Contacto</a></li>
+  </ul>
+  <div class="menu-overlay__footer">
+    <span>Buenos Aires, Argentina</span>
+    <span>hola@terra-arquitectura.com</span>
+  </div>
+</nav>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="hero__bg" data-parallax style="background-image:url('assets/img/hero-exterior-atardecer.png')"></div>
+    <div class="hero__overlay"></div>
+    <h1 class="hero__title">
+      <span class="line"><span class="word">DISEÑAMOS</span> <em class="word">ESPACIOS</em></span>
+      <span class="line">QUE <em class="word">PERDURAN</em> <span class="word">EN</span> <span class="word">EL</span> <span class="word">TIEMPO.</span></span>
+    </h1>
+    <div class="hero__scroll"><span></span>SCROLL</div>
+  </section>
+
+  <div class="marquee">
+    <div class="marquee__track">
+      <span>ARQUITECTURA</span><span class="dot">-</span><span>INTERIORISMO</span><span class="dot">-</span><span>PAISAJISMO</span><span class="dot">-</span><span>URBANISMO</span><span class="dot">-</span>
+      <span>ARQUITECTURA</span><span class="dot">-</span><span>INTERIORISMO</span><span class="dot">-</span><span>PAISAJISMO</span><span class="dot">-</span><span>URBANISMO</span><span class="dot">-</span>
+    </div>
+  </div>
+
+  <section class="projects" id="proyectos">
+
+    <article class="project-reveal">
+      <a class="project-reveal__link" href="proyecto.html?id=casa-duna">
+        <div class="project-reveal__img-wrap">
+          <div class="project-reveal__img" data-parallax-img style="background-image:url('assets/img/proyecto-01-escalera.png')"></div>
+        </div>
+        <div class="project-reveal__info">
+          <span class="project-reveal__num">01</span>
+          <h2>Casa Duna</h2>
+          <p>Punta del Este, Uruguay - Residencial</p>
+          <span class="project-reveal__cta">Ver proyecto <span class="cta__arrow">→</span></span>
+        </div>
+      </a>
+    </article>
+
+    <article class="project-reveal project-reveal--right">
+      <a class="project-reveal__link" href="proyecto.html?id=casa-carilo">
+        <div class="project-reveal__img-wrap">
+          <div class="project-reveal__img" data-parallax-img style="background-image:url('assets/img/proyecto-02-comedor.png')"></div>
+        </div>
+        <div class="project-reveal__info">
+          <span class="project-reveal__num">02</span>
+          <h2>Casa Cariló</h2>
+          <p>Cariló, Argentina - Residencial</p>
+          <span class="project-reveal__cta">Ver proyecto <span class="cta__arrow">→</span></span>
+        </div>
+      </a>
+    </article>
+
+    <article class="project-reveal">
+      <a class="project-reveal__link" href="proyecto.html?id=villa-costa">
+        <div class="project-reveal__img-wrap">
+          <div class="project-reveal__img" data-parallax-img style="background-image:url('assets/img/proyecto-03-cocina.png')"></div>
+        </div>
+        <div class="project-reveal__info">
+          <span class="project-reveal__num">03</span>
+          <h2>Villa Costa</h2>
+          <p>José Ignacio, Uruguay - Residencial</p>
+          <span class="project-reveal__cta">Ver proyecto <span class="cta__arrow">→</span></span>
+        </div>
+      </a>
+    </article>
+
+  </section>
+
+  <section class="h-scroll" id="galeria">
+    <div class="h-track">
+      <div class="h-panel h-panel--intro">
+        <span class="eyebrow">Galería</span>
+        <h2>Cuatro proyectos, <em>una misma búsqueda</em>: luz, materia y paisaje.</h2>
+        <p class="h-hint">Seguí bajando →</p>
+      </div>
+      <a class="h-panel" href="proyecto.html?id=casa-olivos" style="--img:url('/assets/img/galeria-01-pileta.png')">
+        <span class="h-panel__label">Casa Olivos</span>
+      </a>
+      <a class="h-panel" href="proyecto.html?id=estudio-norte" style="--img:url('/assets/img/galeria-02-living.png')">
+        <span class="h-panel__label">Estudio Norte</span>
+      </a>
+      <a class="h-panel" href="proyecto.html?id=spa-cantera" style="--img:url('/assets/img/galeria-03-spa.png')">
+        <span class="h-panel__label">Spa Cantera</span>
+      </a>
+      <a class="h-panel" href="proyecto.html?id=casa-farallon" style="--img:url('/assets/img/galeria-04-lounge.png')">
+        <span class="h-panel__label">Casa Farallón</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="about" id="estudio">
+    <div class="about__img" style="background-image:url('assets/img/estudio-atelier.png')"></div>
+    <div class="about__content">
+      <span class="eyebrow">El Estudio</span>
+      <h2>Veinte años dando forma a la luz, el espacio y el paisaje.</h2>
+      <p>Somos un estudio de arquitectura y diseño enfocado en obras residenciales y comerciales de alta gama, donde cada proyecto nace del sitio, el clima y quienes lo van a habitar.</p>
+      <div class="stats">
+        <div class="stat"><span class="stat__num" data-target="128">0</span><span class="stat__label">Proyectos</span></div>
+        <div class="stat"><span class="stat__num" data-target="20">0</span><span class="stat__label">Años</span></div>
+        <div class="stat"><span class="stat__num" data-target="14">0</span><span class="stat__label">Premios</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" id="contacto">
+    <h2>¿Tenés un terreno<br />y un sueño?</h2>
+    <a href="mailto:hola@terra-arquitectura.com" class="cta__link">Hablemos <span class="cta__arrow">→</span></a>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer__top">
+    <span class="footer__logo">TERRA</span>
+  </div>
+  <div class="footer__bottom">
+    <span>© 2026 TERRA Estudio de Arquitectura</span>
+    <div class="footer__social">
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://www.pinterest.com/" target="_blank" rel="noopener noreferrer">Pinterest</a>
+    </div>
+  </div>
+  <div class="footer__note">
+    <span>© 2026 TERRA. Marca ficticia de demostración.</span>
+    <span class="footer__credit">
+      Sitio de prueba realizado por
+      <a href="https://deploystudio.com.ar/" target="_blank" rel="noopener noreferrer">
+        <img class="footer__deploy-logo" src="assets/img/deploy-logo.png" alt="Deploy" width="900" height="200" loading="lazy" />
+      </a>
+    </span>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
