@@ -175,24 +175,6 @@ img { display: block; max-width: 100%; }
   0% { top: -100%; } 50% { top: 0; } 100% { top: 100%; }
 }
 
-/* ---------- Marquee ---------- */
-.marquee {
-  border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
-  overflow: hidden; white-space: nowrap; padding: 1.4rem 0;
-}
-.marquee__track {
-  display: inline-flex; gap: 1.2rem;
-  animation: marquee 22s linear infinite;
-}
-.marquee__track span {
-  font-family: var(--serif); font-style: italic; font-size: clamp(1.3rem, 3vw, 2.2rem);
-  color: var(--fg-dim);
-}
-.marquee__track .dot { color: var(--accent); font-style: normal; }
-@keyframes marquee {
-  from { transform: translateX(0); } to { transform: translateX(-50%); }
-}
-
 /* ---------- Project reveal sections ---------- */
 .projects { padding: clamp(4rem, 10vh, 8rem) 0; }
 .project-reveal {
