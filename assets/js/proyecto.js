@@ -7,8 +7,8 @@ const PROJECTS = {
     category: "Residencial",
     year: "2024",
     area: "620 m²",
-    hero: "assets/img/proyecto-01-escalera.png",
-    gallery: ["assets/img/hero-exterior-atardecer.png", "assets/img/galeria-03-spa.png"],
+    hero: "assets/img/proyecto-01-escalera.jpg",
+    gallery: ["assets/img/hero-exterior-atardecer.jpg", "assets/img/galeria-03-spa.jpg"],
     text: [
       "Casa Duna se apoya en la ladera y se abre por completo hacia el mar. La escalera de piedra caliza que recibe a quien entra funciona como umbral entre el paisaje exterior y la intimidad de la casa.",
       "La madera cálida, la piedra local y la luz natural son los tres materiales que ordenan cada ambiente, buscando que la arquitectura se sienta parte del terreno y no una imposición sobre él."
@@ -20,8 +20,8 @@ const PROJECTS = {
     category: "Residencial",
     year: "2023",
     area: "480 m²",
-    hero: "assets/img/proyecto-02-comedor.png",
-    gallery: ["assets/img/galeria-02-living.png", "assets/img/proyecto-03-cocina.png"],
+    hero: "assets/img/proyecto-02-comedor.jpg",
+    gallery: ["assets/img/galeria-02-living.jpg", "assets/img/proyecto-03-cocina.jpg"],
     text: [
       "Entre los pinos de Cariló, esta casa propone un recorrido continuo entre el comedor, el living y la galería exterior, disuelto por grandes paños vidriados que se abren al bosque.",
       "El objetivo fue diseñar una casa de veraneo que funcione todo el año: cálida y protegida en invierno, ventilada y abierta en verano."
@@ -33,8 +33,8 @@ const PROJECTS = {
     category: "Residencial",
     year: "2025",
     area: "710 m²",
-    hero: "assets/img/proyecto-03-cocina.png",
-    gallery: ["assets/img/hero-exterior-atardecer.png", "assets/img/galeria-01-pileta.png"],
+    hero: "assets/img/proyecto-03-cocina.jpg",
+    gallery: ["assets/img/hero-exterior-atardecer.jpg", "assets/img/galeria-01-pileta.jpg"],
     text: [
       "Villa Costa organiza sus ambientes sociales alrededor de una isla de cocina en travertino, con vista directa al horizonte marino desde cada punto de la planta baja.",
       "El proyecto trabaja con una paleta acotada de materiales nobles, dejando que la luz del atardecer sea el verdadero protagonista de la casa."
@@ -46,8 +46,8 @@ const PROJECTS = {
     category: "Residencial",
     year: "2022",
     area: "390 m²",
-    hero: "assets/img/galeria-01-pileta.png",
-    gallery: ["assets/img/proyecto-01-escalera.png", "assets/img/galeria-04-lounge.png"],
+    hero: "assets/img/galeria-01-pileta.jpg",
+    gallery: ["assets/img/proyecto-01-escalera.jpg", "assets/img/galeria-04-lounge.jpg"],
     text: [
       "Rodeada de olivos centenarios, esta casa se despliega en un único nivel alrededor de una piscina que actúa como patio central.",
       "Los aleros profundos y la pérgola de madera controlan la luz directa durante todo el año, generando sombra propia sin perder la conexión visual con el jardín."
@@ -59,8 +59,8 @@ const PROJECTS = {
     category: "Corporativo",
     year: "2023",
     area: "850 m²",
-    hero: "assets/img/galeria-02-living.png",
-    gallery: ["assets/img/estudio-atelier.png", "assets/img/proyecto-02-comedor.png"],
+    hero: "assets/img/galeria-02-living.jpg",
+    gallery: ["assets/img/estudio-atelier.jpg", "assets/img/proyecto-02-comedor.jpg"],
     text: [
       "Un espacio de oficinas pensado como una extensión del paisaje: madera clara, piedra y grandes ventanales que enmarcan la vegetación circundante.",
       "El diseño prioriza espacios de trabajo flexibles y zonas comunes luminosas, alejándose de la oficina tradicional cerrada."
@@ -72,8 +72,8 @@ const PROJECTS = {
     category: "Hospitalidad",
     year: "2024",
     area: "310 m²",
-    hero: "assets/img/galeria-03-spa.png",
-    gallery: ["assets/img/hero-exterior-atardecer.png", "assets/img/galeria-04-lounge.png"],
+    hero: "assets/img/galeria-03-spa.jpg",
+    gallery: ["assets/img/hero-exterior-atardecer.jpg", "assets/img/galeria-04-lounge.jpg"],
     text: [
       "Pensado como un refugio dentro de un complejo hotelero mayor, este spa combina piedra travertino, madera y agua en un recorrido pausado de sauna, pileta y descanso.",
       "Cada ambiente fue diseñado para que la vista al mar acompañe la experiencia, incluso desde dentro de la sauna."
@@ -85,8 +85,8 @@ const PROJECTS = {
     category: "Residencial",
     year: "2025",
     area: "540 m²",
-    hero: "assets/img/galeria-04-lounge.png",
-    gallery: ["assets/img/galeria-01-pileta.png", "assets/img/proyecto-03-cocina.png"],
+    hero: "assets/img/galeria-04-lounge.jpg",
+    gallery: ["assets/img/galeria-01-pileta.jpg", "assets/img/proyecto-03-cocina.jpg"],
     text: [
       "Ubicada sobre un farallón rocoso, esta casa busca desaparecer detrás de la vegetación nativa y dejar que el protagonismo sea siempre del paisaje costero.",
       "Los ventanales de piso a techo y los livings semicubiertos disuelven el límite entre el interior y el exterior."
