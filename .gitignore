@@ -1,5 +1,6 @@
 # Claude Code
 .claude/
+.impeccable/
 
 # Sistema operativo
 .DS_Store
