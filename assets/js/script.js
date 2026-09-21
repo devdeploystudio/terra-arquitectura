@@ -1,5 +1,20 @@
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
+/* Se vuelve de una ficha de proyecto con links tipo "index.html#proyectos".
+   Si dejamos que el navegador salte solo al ancla, compite con el pin de la
+   galería horizontal (ScrollTrigger todavía no calculó las alturas, y las
+   imágenes del hero ni siquiera terminaron de cargar) y rompe el scroll de
+   toda la página. Por eso sacamos el hash de la URL al toque, forzamos
+   scroll 0 y hacemos nosotros el salto más abajo, ya con todo calculado. */
+const landingHash = location.hash;
+if (landingHash) {
+  history.replaceState(null, "", location.pathname + location.search);
+}
+if ("scrollRestoration" in history) {
+  history.scrollRestoration = "manual";
+}
+window.scrollTo(0, 0);
+
 /* ---------- Loader ---------- */
 const loaderTl = gsap.timeline({
   onComplete: () => {
@@ -187,8 +202,8 @@ gsap.from(".footer__logo", {
 
 /* ---------- Land on the right section when arriving with a #hash ---------- */
 window.addEventListener("load", () => {
-  if (location.hash) {
-    const target = document.querySelector(location.hash);
+  if (landingHash) {
+    const target = document.querySelector(landingHash);
     if (target) {
       setTimeout(() => {
         ScrollTrigger.refresh();
